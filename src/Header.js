@@ -11,6 +11,11 @@ function Header() {
             <img src={logoMentalHelp} className="logo-img" alt="" />
             <a href="/" className="logo">Mental Help</a>
           </div>
+          <div className="mobile-menu">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+          </div>
           <ul className="nav-list">
             <li>Inicio</li>
             <li>Diário</li>

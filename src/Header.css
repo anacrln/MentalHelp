@@ -71,3 +71,47 @@ button:hover{
   background-color: #EC9287;
 }
 
+.mobile-menu{
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background-color: #DE6A5A;
+  margin: 8px;
+}
+
+@media (max-width: 999px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .nav-list{
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    /* background-color: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), 0.6); */
+    background-color: #DE6A5A;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+  }
+
+  .nav-list li{
+    margin-left: 0;
+    opacity: 0;
+  }
+
+  .mobile-menu{
+    display: block;
+  }
+
+  .nav-list.active{
+    transform: translateX(0);
+  }
+}
