@@ -1,15 +1,16 @@
 import React from 'react'
 import './Header.css'
+import logoMentalHelp from './img/logo-mentalHelp1.png'
 
 function Header() {
   return(
     <div>
       <header>
         <nav>
-          {/* <div className="logo-img">
-            <img src="img/logo-mentalHelp.png" alt="" />
-          </div> */}
-          <a href="/" className="logo">Mental Help</a>
+          <div className="logo-img">
+            <img src={logoMentalHelp} className="logo-img" alt="" />
+            <a href="/" className="logo">Mental Help</a>
+          </div>
           <ul className="nav-list">
             <li>Inicio</li>
             <li>Diário</li>
