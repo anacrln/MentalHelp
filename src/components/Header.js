@@ -1,6 +1,6 @@
 import React from 'react'
-import './Header.css'
-import logoMentalHelp from './img/logo-mentalHelp1.png'
+import '../css/Header.css'
+import logoMentalHelp from '../img/logo-mentalHelp1.png'
 
 function Header() {
   return(

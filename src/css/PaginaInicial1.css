@@ -1,0 +1,6 @@
+.flex-container{
+  display: flex;
+  max-width: 922px;
+  width: 100%;
+  margin: auto;
+}
